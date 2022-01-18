@@ -1,0 +1,6 @@
+wget http://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.4.0.RELEASE/spring-boot-cli-1.4.0.RELEASE-bin.tar.gz
+sudo mkdir /opt/spring-boot
+tar xzf spring-boot-cli-1.4.0.RELEASE-bin.tar.gz -C /opt/spring-boot
+export SPRING_HOME=/opt/spring-boot/spring-1.4.0.RELEASE
+export PATH=$SPRING_HOME/bin:$PATH
+spring --version
