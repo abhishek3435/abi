@@ -1,0 +1,6 @@
+$ spring version
+Spring CLI v1.5.3.RELEASE
+$ sdk install springboot 1.5.3.RELEASE
+$ sdk use springboot 1.5.3.RELEASE
+$ mvn install
+$ spring install org.springframework.cloud:spring-cloud-cli:1.3.3.BUILD-SNAPSHOT
