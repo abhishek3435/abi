@@ -1,0 +1,10 @@
+sudo apt-get update
+sudo apt-get install apache2
+http://local.server.ip
+sudo ufw show app list
+sudo ufw allow 'Apache'
+sudo ufw status
+sudo systemctl stop apache2.service
+sudo systemctl start apache2.service
+sudo systemctl restart apache2.service
+sudo systemctl reload apache2.service
